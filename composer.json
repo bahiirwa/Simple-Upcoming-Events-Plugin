@@ -1,0 +1,17 @@
+{
+    "name": "laurencebahiirwa/upcoming-events-master",
+    "description": "Simple Events Plugin",
+    "type": "project",
+    "license": "GPL 2.0+",
+    "authors": [
+        {
+            "name": "Laurence Bahiirwa",
+            "email": "laurence@mediauganda.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"},
+        "files": [ "./inc/Helpers.php" ]
+    },
+    "minimum-stability": "dev"
+}

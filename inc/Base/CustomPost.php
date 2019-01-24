@@ -30,7 +30,7 @@ class CustomPost {
 			'description'	=>	__( 'A list of upcoming events', 'suep' ),
 			'public'		=>	true,
 			'show_in_menu'	=>	true,
-			'menu_icon'		=>	plugin_dir_url( dirname( __FILE__, 2 ) ) . 'img/event.svg',
+			'menu_icon'		=>	'dashicons-calendar-alt',
 			'has_archive'	=>	true,
 			'rewrite'		=>	true,
 			'supports'		=>	array( 'title', 'editor', 'excerpt' ),
